@@ -1,4 +1,4 @@
-[
+([
   // ── SECTION 1: Electronics ───────────────────────────────
   // Subsection 1.1 — Phones
   { _id: 1, category: "Electronics", sub: "Phones", product: "iPhone 15 Pro", sku: "APL-001", qty: 12, price: 999, revenue: 11988, region: "North", month: "Jan", year: 2024, tags: ["premium","apple"], status: "delivered", customerId: "C01" },
@@ -72,4 +72,4 @@
   { _id: 48, category: "Health", sub: "Equipment", product: "Bowflex SelectTech", sku: "BOW-048", qty: 12, price: 429, revenue: 5148, region: "West", month: "Oct", year: 2024, tags: ["dumbbells","home-gym"], status: "delivered", customerId: "C45" },
   { _id: 49, category: "Health", sub: "Equipment", product: "TRX Suspension Kit", sku: "TRX-049", qty: 25, price: 199, revenue: 4975, region: "East", month: "Sep", year: 2024, tags: ["trx","bodyweight"], status: "delivered", customerId: "C46" },
   { _id: 50, category: "Health", sub: "Equipment", product: "Lululemon Yoga Mat", sku: "LUL-050", qty: 70, price: 98, revenue: 6860, region: "South", month: "Aug", year: 2024, tags: ["yoga","lululemon"], status: "delivered", customerId: "C47" }
-]
+])
