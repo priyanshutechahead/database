@@ -18,15 +18,10 @@ Think of **MongoDB** as a filing cabinet filled with digital manila folders (doc
 
 Product-based engineering teams select their database based on core business logic—balancing transactional accuracy against massive, unstructured data scaling.
 
-┌────────────────────────────────────────────────────────────────────────┐
-│                          PRODUCT SELECTION                             │
-├───────────────────────────────────┬────────────────────────────────────┤
-│       PostgreSQL (Relational)     │        MongoDB (Non-Relational)    │
-├───────────────────────────────────┼────────────────────────────────────┤
-│  • Uber: Spatial mapping (PostGIS)│  • Netflix: Dynamic homepages      │
-│  • Instagram: Relational social   │  • Forbes: Flexible CMS and        │
-│    graphs (Follows, Likes, Joins) │    unstructured article fields     │
-└───────────────────────────────────┴────────────────────────────────────┘
+| PostgreSQL (Relational) | MongoDB (Non-Relational) |
+| :--- | :--- |
+| **Uber**: Spatial mapping using the PostGIS extension | **Netflix**: Dynamic homepages and personalized feeds |
+| **Instagram**: Relational social graphs (Follows, Likes, Joins) | **Forbes**: Flexible CMS and unstructured article fields |
 
 
 ### 1. Uber 🚗 &rarr; **PostgreSQL**
